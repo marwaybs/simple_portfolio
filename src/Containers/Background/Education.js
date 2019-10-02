@@ -1,5 +1,5 @@
 import React from 'react';
-import { purp1, purp2,  yellow1 } from '../colors';
+import { } from '../colors';
 import styled from 'styled-components'
 
 const EducationWrapper = styled.div`
@@ -16,7 +16,7 @@ const List = styled.ul`
 `;
 
 const LI = styled.li`
-
+  list-style-type:none;
 `;
 
 export default function Education() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { purp1, purp2,  yellow1 } from '../colors';
+import {  } from '../colors';
 import styled from 'styled-components'
 
 const ExperienceWrapper = styled.div`
@@ -16,17 +16,17 @@ const List = styled.ul`
 `;
 
 const LI = styled.li`
-
+  list-style-type:none;
 `;
 
 export default function Experience() {
   return (
       <ExperienceWrapper>
         <Title>
-          Education
+          Experience
         </Title>
         <SubTitle>
-          Psychology, Neuroscience and Behaviour B.Sc.
+          Inkblot Therapy
         </SubTitle>
         <List>
           <LI>Academic and "pop" (blogs, podcasts etc.) scientific writing</LI>
@@ -35,7 +35,7 @@ export default function Experience() {
           <LI>Research on Computional Models of Learning</LI>
         </List>
         <SubTitle>
-          eHealth (Computer Science Specialization) M.Sc.
+          Python Scripting 
         </SubTitle>
         <List>
           <LI></LI>

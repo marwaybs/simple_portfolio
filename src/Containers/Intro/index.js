@@ -1,5 +1,5 @@
 import React from 'react';
-import { purp1, purp2,  yellow1, ocean, aquamarine, light } from '../colors';
+import {ocean, aquamarine, light } from '../colors';
 import styled, { keyframes } from "styled-components"
 import Navigation from './Navigation';
 
@@ -9,9 +9,9 @@ const HeaderWrapper = styled.div`
 const ContentWrapper = styled.div`
   width: 100%;
   position: absolute;
-  top:50vh;
-  color: ${light}
-  font-family: 'Exo', sans-serif;
+  top:40vh;
+  color: ${light};
+  text-align: center;
 `;
 
 const Name = styled.p`
@@ -37,8 +37,10 @@ const Animate = keyframes`
 `;
 
 const Animation = styled.div`
-  background: ${aquamarine};  
-  background: -webkit-linear-gradient(to left, ${ocean}, ${aquamarine});  
+  /* background: ${ocean};   */
+  /* background-image: -webkit-linear-gradient(to left, ${ocean}, ${aquamarine}); */
+  background-image: linear-gradient(${ocean}, ${aquamarine});
+
   width: 100%;
   height:100vh;
   `;

@@ -1,15 +1,19 @@
 import React from 'react';
 import Intro from './Containers/Intro';
-// import Background from './Components/Background';
-// import Projects from './Components/Projects';
-require("typeface-open-sans")
+import AboutMe from './Containers/AboutMe';
+import Skills from './Containers/Skills';
+import Background from './Containers/Background';
+import Projects from './Containers/Projects';
+
 
 function App() {
   return (
     <div>
       <Intro/>
-      {/* <Background />
-      <Projects /> */}
+      <AboutMe/>
+      <Skills/>
+      <Background />
+      <Projects />
     </div>
   );
 }

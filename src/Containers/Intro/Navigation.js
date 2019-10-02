@@ -1,10 +1,10 @@
 import React from 'react';
-import { purp1, purp2,  yellow1 } from '../colors';
+import { } from '../colors';
 import styled from 'styled-components'
 import { NavButton } from '../../Components/buttons'
 
 const NavigatonWrapper = styled.div`
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 `
 
@@ -12,6 +12,7 @@ const NavigatonWrapper = styled.div`
 export default function Navigation() {
   return (
       <NavigatonWrapper>
+        <NavButton > About Me </NavButton>
         <NavButton > Background </NavButton>
         <NavButton > Skills </NavButton>
         <NavButton > Projects </NavButton>
