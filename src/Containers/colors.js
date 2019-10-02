@@ -9,3 +9,9 @@ export const yellow2 = '#BFBA30';
 export const yellow3 = '#A69F00';
 export const yellow4 = '#FFF840';
 export const yellow5 = '#FFFA73';
+
+export const dark ='#182628';
+export const ocean = '#65CCb8';
+export const aquamarine = '#57BA98';
+export const sea = '#3B945E';
+export const light = '#F2F2F2';

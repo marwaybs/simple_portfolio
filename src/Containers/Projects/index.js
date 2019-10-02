@@ -3,9 +3,9 @@ import { purp1, purp2,  yellow1 } from '../colors';
 import styled from 'styled-components'
 import Navigation from './Navigation';
 
-const HeaderWrapper = styled.div`
+const ProjectsWrapper = styled.div`
 background-color: ${purp1};
-background-image: linear-gradient(${purp1}, white);
+background-image: linear-gradient(${purp1}, ${yellow1});
 
 margin: 0px;
 text-align: center;
@@ -14,7 +14,7 @@ border-bottom: 5px solid ${yellow1};
 color: white;
 `
 
-const Name = styled.p`
+const Title = styled.p`
   margin: 0px;
   font-size: 40px;
 `
@@ -25,14 +25,14 @@ const SubTitle = styled.p`
 
 export default function Intro() {
   return (
-      <HeaderWrapper>
-        <Name>
+      <ProjectsWrapper>
+        <Title>
           Bhaag Marway
-        </Name>
+        </Title>
         <SubTitle>
           Full Stack Developer
         </SubTitle>
         <Navigation/>
-      </HeaderWrapper>
+      </ProjectsWrapper>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Intro from './Components/Intro';
+import Intro from './Containers/Intro';
 // import Background from './Components/Background';
 // import Projects from './Components/Projects';
 require("typeface-open-sans")
