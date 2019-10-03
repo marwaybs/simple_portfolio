@@ -1,5 +1,5 @@
 import React from 'react';
-import {ocean, aquamarine, light } from '../colors';
+import {ocean, aquamarine, sea, light, dark } from '../colors';
 import styled, { keyframes } from "styled-components"
 import Navigation from './Navigation';
 
@@ -12,6 +12,7 @@ const ContentWrapper = styled.div`
   top:40vh;
   color: ${light};
   text-align: center;
+  z-index: 1;
 `;
 
 const Name = styled.p`
@@ -42,7 +43,8 @@ const Animation = styled.div`
   background-image: linear-gradient(${ocean}, ${aquamarine});
 
   width: 100%;
-  height:100vh;
+  height:102vh;
+  border-bottom: 5px solid ${ocean};
   `;
 
 const Shape = styled.li`

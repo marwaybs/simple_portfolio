@@ -1,9 +1,9 @@
 import React from 'react';
-import { } from '../colors';
+import {ocean, aquamarine, light } from '../colors';
 import styled from 'styled-components'
 
-const BackgroundWrapper = styled.div`
-
+const AboutMeWrapper = styled.div`
+background-image: linear-gradient(${aquamarine}, ${ocean});
 margin: 0px;
 text-align: center;
 padding: 100px;
@@ -20,13 +20,13 @@ const SubTitle = styled.p`
 
 export default function Intro() {
   return (
-      <BackgroundWrapper>
+      <AboutMeWrapper id="AboutMe">
         <Title>
-          Bhaag Marway
+          About Me
         </Title>
         <SubTitle>
-          Full Stack Developer
+          Science major who found programming
         </SubTitle>
-      </BackgroundWrapper>
+      </AboutMeWrapper>
   );
 }

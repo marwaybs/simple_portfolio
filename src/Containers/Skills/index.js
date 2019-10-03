@@ -17,15 +17,17 @@ const SubTitle = styled.p`
   font-size: 30px;
 `
 
+const TechnologyList = styled.p``;
+
 export default function Intro() {
   return (
       <SkillsWrapper>
         <Title>
           Skills
         </Title>
-        <technologyList>
+        <TechnologyList>
           
-        </technologyList>
+        </TechnologyList>
       </SkillsWrapper>
   );
 }

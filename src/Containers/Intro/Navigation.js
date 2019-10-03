@@ -6,16 +6,21 @@ import { NavButton } from '../../Components/buttons'
 const NavigatonWrapper = styled.div`
   display: inline-flex;
   flex-wrap: wrap;
+  z-index: 1;
 `
+
+const NavLink = styled.a`
+
+`;
 
 
 export default function Navigation() {
   return (
       <NavigatonWrapper>
-        <NavButton > About Me </NavButton>
-        <NavButton > Background </NavButton>
-        <NavButton > Skills </NavButton>
-        <NavButton > Projects </NavButton>
+        <NavLink href="#AboutMe" ><NavButton > About Me </NavButton></NavLink>
+        <NavLink><NavButton > Background </NavButton></NavLink>
+        <NavLink><NavButton > Skills </NavButton></NavLink>
+        <NavLink><NavButton > Projects </NavButton></NavLink>
       </NavigatonWrapper>
   );
 }
