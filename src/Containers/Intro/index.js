@@ -39,11 +39,11 @@ const Animate = keyframes`
 
 const Animation = styled.div`
   /* background: ${ocean};   */
-  /* background-image: -webkit-linear-gradient(to left, ${ocean}, ${aquamarine}); */
-  background-image: linear-gradient(${ocean}, ${aquamarine});
+  /* background-image: -webkit-linear-gradient(to left, ${dark}, ${aquamarine}); */
+  background-image: linear-gradient(${aquamarine}, ${dark});
 
   width: 100%;
-  height:102vh;
+  height:60vh;
   border-bottom: 5px solid ${ocean};
   `;
 
@@ -63,7 +63,7 @@ const ShapeList = styled.ul`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 59vh;
   overflow: hidden;
   padding: 0;
 
