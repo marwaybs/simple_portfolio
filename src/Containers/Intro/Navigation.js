@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { NavButton } from '../../Components/buttons'
 
 const NavigatonWrapper = styled.div`
-  display: inline-flex;
+  display: block;
   flex-wrap: wrap;
   z-index: 1;
 `
@@ -18,9 +18,9 @@ export default function Navigation() {
   return (
       <NavigatonWrapper>
         <NavLink href="#AboutMe" ><NavButton > About Me </NavButton></NavLink>
-        <NavLink><NavButton > Background </NavButton></NavLink>
-        <NavLink><NavButton > Skills </NavButton></NavLink>
-        <NavLink><NavButton > Projects </NavButton></NavLink>
+        <NavLink href="#Background"><NavButton > Background </NavButton></NavLink>
+        <NavLink href="#Skills"><NavButton > Skills </NavButton></NavLink>
+        <NavLink href="#Projects"><NavButton > Projects </NavButton></NavLink>
       </NavigatonWrapper>
   );
 }

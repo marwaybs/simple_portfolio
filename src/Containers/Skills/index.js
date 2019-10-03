@@ -21,7 +21,7 @@ const TechnologyList = styled.p``;
 
 export default function Intro() {
   return (
-      <SkillsWrapper>
+      <SkillsWrapper id="Skills">
         <Title>
           Skills
         </Title>
