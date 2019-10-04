@@ -1,5 +1,5 @@
 import React from 'react';
-import { } from '../colors';
+import { } from '../../Components/colors';
 import styled from 'styled-components'
 
 const SkillsWrapper = styled.div`
@@ -17,7 +17,13 @@ const SubTitle = styled.p`
   font-size: 30px;
 `
 
-const TechnologyList = styled.p``;
+const TechnologyWrapper = styled.div`
+  display: inline-flex;
+`;
+
+const Technology = styled.p`
+  padding: 10px;
+`;
 
 export default function Skills() {
   return (
@@ -25,9 +31,13 @@ export default function Skills() {
         <Title>
           Skills
         </Title>
-        <TechnologyList>
-          
-        </TechnologyList>
+        <TechnologyWrapper>
+          <Technology>React/Redux</Technology>
+          <Technology>Ruby on Rails</Technology>
+          <Technology>Python</Technology>
+          <Technology>Android</Technology>
+          <Technology>iOS</Technology>
+        </TechnologyWrapper>
       </SkillsWrapper>
   );
 }

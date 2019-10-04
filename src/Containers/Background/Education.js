@@ -1,5 +1,5 @@
 import React from 'react';
-import { } from '../colors';
+import { } from '../../Components/colors';
 import styled from 'styled-components'
 
 const EducationWrapper = styled.div`

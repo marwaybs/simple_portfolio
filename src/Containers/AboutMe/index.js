@@ -1,13 +1,12 @@
 import React from 'react';
-import {ocean, aquamarine, light } from '../colors';
+import {dark} from '../../Components/colors';
 import styled from 'styled-components'
 
 const AboutMeWrapper = styled.div`
-// background-image: linear-gradient(${light}, ${ocean});
 margin: 0px;
 text-align: center;
 padding: 100px;
-// color: ${light}
+color: ${dark}
 `;
 
 const Title = styled.p`
@@ -15,8 +14,20 @@ const Title = styled.p`
   font-size: 40px;
 `;
 
-const SubTitle = styled.p`
+const ContentWrapper = styled.div`
+  padding-top: 10px;
+  display: inline-flex;
+  align-items: center;
+`;
+
+const SubTitle = styled.span`
   font-size: 30px;
+`;
+
+const ListWrapper = styled.ul``;
+
+const ListItem = styled.li`
+  list-style-type:none;
 `;
 
 export default function AboutMe() {
@@ -25,17 +36,17 @@ export default function AboutMe() {
         <Title>
           About Me
         </Title>
-        <SubTitle>
-          Science major who found programming
-        </SubTitle>
-        <p>After I took a comp sci elective in undergrad, I went to all the hackathons, implemented computational models of learning and modelled my life on becoming a developer.</p>
-        <p>I want to solve meaningful problems so I did a masters in electronic health specializing in computer science.</p>
-        <p>Other than that I believe: Varieties the spice of life. Doing anything 24/7 gets old. Therefore: </p>
-        <p>
-          Kizomba (An angolan social partner dance) to keep sharp. Remembering steps, learning new ones, and leading all of them with a following dancer <br/>
-          Yoga to stay fit and keep a regular meditation practice<br/>
-          Cooking + reverse engineering the food I try because food is delicious<br/>
-        </p>
+        <ContentWrapper>
+          <SubTitle>
+            Varieties the spice of life
+          </SubTitle>
+          <ListWrapper>
+            <ListItem>Science Major -> Developer</ListItem>
+            <ListItem>Kizomba -> An angolan partner dance</ListItem>
+            <ListItem>Yoga -> to stay fit and meditate</ListItem>
+            <ListItem>Cooking -> because food is delicious</ListItem>
+          </ListWrapper>
+        </ContentWrapper>
       </AboutMeWrapper>
   );
 }

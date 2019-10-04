@@ -1,5 +1,5 @@
 import React from 'react';
-import { } from '../colors';
+import { } from '../../Components/colors';
 import styled from 'styled-components'
 import { NavButton } from '../../Components/buttons'
 
@@ -7,7 +7,7 @@ const NavigatonWrapper = styled.div`
   display: block;
   flex-wrap: wrap;
   z-index: 1;
-  padding-top: 40vh;
+  padding-top: 38vh;
 `
 
 const NavLink = styled.a`

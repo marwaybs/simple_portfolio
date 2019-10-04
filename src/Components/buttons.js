@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {sea, aquamarine, ocean, dark, light} from './../Containers/colors';
+import {sea, aquamarine, ocean, dark, light} from './colors';
 export const NavButton = styled.button`
   border: 2px solid ${light};
   background-color: ${dark};

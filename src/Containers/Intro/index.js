@@ -1,5 +1,5 @@
 import React from 'react';
-import {ocean, aquamarine, sea, light, dark } from '../colors';
+import {ocean, aquamarine, sea, light, dark } from '../../Components/colors';
 import styled, { keyframes } from "styled-components"
 import Navigation from './Navigation';
 
@@ -210,10 +210,6 @@ const ShapeList = styled.ul`
     animation-delay: 0s;
     animation-duration: 11s;
   }
-
-
-
-
   ${Shape}:nth-child(11){
     left: 20%;
     width: 80px;
