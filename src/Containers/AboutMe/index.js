@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const AboutMeWrapper = styled.div`
 margin: 0px;
 text-align: center;
-padding: 100px;
+padding: 75px;
 color: ${dark}
 `;
 
@@ -28,7 +28,10 @@ const ListWrapper = styled.ul``;
 
 const ListItem = styled.li`
   list-style-type:none;
+  padding-bottom: 5px;
 `;
+
+const Text = styled.p``;
 
 export default function AboutMe() {
   return (
@@ -41,12 +44,12 @@ export default function AboutMe() {
             Varieties the spice of life
           </SubTitle>
           <ListWrapper>
-            <ListItem>Science Major -> Developer</ListItem>
             <ListItem>Kizomba -> An angolan partner dance</ListItem>
             <ListItem>Yoga -> to stay fit and meditate</ListItem>
             <ListItem>Cooking -> because food is delicious</ListItem>
           </ListWrapper>
         </ContentWrapper>
+        <Text>I've modelled my life to take care of myself and keep learning.</Text>
       </AboutMeWrapper>
   );
 }

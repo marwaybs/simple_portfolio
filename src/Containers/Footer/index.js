@@ -1,6 +1,6 @@
 import React from 'react';
-import { } from '../colors';
 import styled from 'styled-components'
+import github_logo from '../../Assets/Images/github_logo.png'
 
 const FooterWrapper  = styled.div`
     
@@ -15,17 +15,15 @@ const SubTitle = styled.p`
   font-size: 30px;
 `
 
+const GithubLogo = styled.img``;
+
 const TechnologyList = styled.p``;
 
 export default function Intro() {
   return (
-      <FooterWrapper id="Skills">
-        <Title>
-          Skills
-        </Title>
-        <TechnologyList>
-          
-        </TechnologyList>
-      </SkillsWrapper>
+      <FooterWrapper>
+        <p type="email">bsmarway@gmail.com</p>
+        <GithubLogo src={github_logo}></GithubLogo>
+      </FooterWrapper>
   );
 }

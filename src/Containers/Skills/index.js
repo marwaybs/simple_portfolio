@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const SkillsWrapper = styled.div`
 margin: 0px;
 text-align: center;
-padding: 100px;
+padding: 75px;
 `
 
 const Title = styled.p`
@@ -35,9 +35,8 @@ export default function Skills() {
           <Technology>React/Redux</Technology>
           <Technology>Ruby on Rails</Technology>
           <Technology>Python</Technology>
-          <Technology>Android</Technology>
-          <Technology>iOS</Technology>
         </TechnologyWrapper>
+        
       </SkillsWrapper>
   );
 }

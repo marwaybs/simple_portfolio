@@ -4,6 +4,7 @@ import AboutMe from './Containers/AboutMe';
 import Skills from './Containers/Skills';
 import Background from './Containers/Background';
 import Projects from './Containers/Projects';
+import Footer from './Containers/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Background />
       <Projects />
+      <Footer/>
     </div>
   );
 }

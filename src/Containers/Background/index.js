@@ -6,14 +6,14 @@ import Experience from './Experience';
 const BackgroundWrapper = styled.div`
 margin: 0px;
 text-align: center;
-padding: 100px;
+padding: 75px;
 `;
 
 export default function Background() {
   return (
       <BackgroundWrapper id="Background">
-        <Education />
         <Experience />
+        <Education />
       </BackgroundWrapper>
   );
 }
