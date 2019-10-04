@@ -15,7 +15,9 @@ const SubTitle = styled.p`
   font-size: 30px;
 `
 
-const GithubLogo = styled.img``;
+const GithubLogo = styled.img`
+  max-width: 100px;
+`;
 
 const TechnologyList = styled.p``;
 

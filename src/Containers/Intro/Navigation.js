@@ -19,7 +19,7 @@ export default function Navigation() {
   return (
       <NavigatonWrapper>
         <NavLink href="#AboutMe" ><NavButton > About Me </NavButton></NavLink>
-        <NavLink href="#Background"><NavButton > Background </NavButton></NavLink>
+        {/* <NavLink href="#Background"><NavButton > Background </NavButton></NavLink> */}
         <NavLink href="#Skills"><NavButton > Skills </NavButton></NavLink>
         <NavLink href="#Projects"><NavButton > Projects </NavButton></NavLink>
       </NavigatonWrapper>

@@ -25,6 +25,10 @@ const Technology = styled.p`
   padding: 10px;
 `;
 
+const Text = styled.p`
+  padding: 10px;
+`;
+
 export default function Skills() {
   return (
       <SkillsWrapper id="Skills">
@@ -36,7 +40,17 @@ export default function Skills() {
           <Technology>Ruby on Rails</Technology>
           <Technology>Python</Technology>
         </TechnologyWrapper>
-        
+        <Text>What I know less best:</Text>
+        <TechnologyWrapper>
+          <Technology>PHP - cakePHP</Technology>
+          <Technology>Android</Technology>
+          <Technology>iOS</Technology>
+          <Technology>Java</Technology>
+          <Technology>Matlab</Technology>
+          <Technology>R</Technology>
+
+        </TechnologyWrapper>
+
       </SkillsWrapper>
   );
 }
