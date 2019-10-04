@@ -7,7 +7,7 @@ const NavigatonWrapper = styled.div`
   display: block;
   flex-wrap: wrap;
   z-index: 1;
-  padding-top: 10vh;
+  padding-top: 40vh;
 `
 
 const NavLink = styled.a`
