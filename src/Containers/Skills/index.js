@@ -19,7 +19,7 @@ const SubTitle = styled.p`
 
 const TechnologyList = styled.p``;
 
-export default function Intro() {
+export default function Skills() {
   return (
       <SkillsWrapper id="Skills">
         <Title>

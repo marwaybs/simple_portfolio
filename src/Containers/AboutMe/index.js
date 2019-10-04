@@ -1,12 +1,13 @@
 import React from 'react';
-import {ocean, aquamarine } from '../colors';
+import {ocean, aquamarine, light } from '../colors';
 import styled from 'styled-components'
 
 const AboutMeWrapper = styled.div`
-background-image: linear-gradient(${aquamarine}, ${ocean});
+// background-image: linear-gradient(${light}, ${ocean});
 margin: 0px;
 text-align: center;
 padding: 100px;
+// color: ${light}
 `;
 
 const Title = styled.p`
@@ -18,7 +19,7 @@ const SubTitle = styled.p`
   font-size: 30px;
 `;
 
-export default function Intro() {
+export default function AboutMe() {
   return (
       <AboutMeWrapper id="AboutMe">
         <Title>

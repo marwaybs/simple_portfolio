@@ -9,7 +9,7 @@ text-align: center;
 padding: 100px;
 `;
 
-export default function Intro() {
+export default function Background() {
   return (
       <BackgroundWrapper id="Background">
         <Education />

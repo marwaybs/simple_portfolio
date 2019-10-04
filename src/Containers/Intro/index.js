@@ -9,8 +9,8 @@ const HeaderWrapper = styled.div`
 const ContentWrapper = styled.div`
   width: 100%;
   position: absolute;
-  top:40vh;
-  color: ${light};
+  top:20vh;
+  color: ${dark};
   text-align: center;
   z-index: 1;
 `;
@@ -40,11 +40,11 @@ const Animate = keyframes`
 const Animation = styled.div`
   /* background: ${ocean};   */
   /* background-image: -webkit-linear-gradient(to left, ${dark}, ${aquamarine}); */
-  background-image: linear-gradient(${aquamarine}, ${dark});
+  // background-image: linear-gradient(${dark}, ${aquamarine}, ${light});
 
   width: 100%;
   height:60vh;
-  border-bottom: 5px solid ${ocean};
+  // border-bottom: 5px solid ${ocean};
   `;
 
 const Shape = styled.li`
@@ -56,6 +56,7 @@ const Shape = styled.li`
   background: rgba(255, 255, 200, 0.2);
   animation: ${Animate} 2s linear infinite;
   bottom: -150px;
+  background-color: ${dark};
 `;
 
 const ShapeList = styled.ul`
