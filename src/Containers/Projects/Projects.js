@@ -2,8 +2,6 @@ import React from 'react';
 import { dark } from '../../Components/colors';
 import styled from 'styled-components'
 import { projectData } from './data'
-import portfolio from './../../Assets/Images/portfolio.png'
-
 
 const Grid = styled.div`
   display: flex;
