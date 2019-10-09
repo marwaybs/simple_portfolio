@@ -17,7 +17,7 @@ const Image = styled.img`
 `;
 
 
-const ProjectWrapper = styled.div`
+const ProjectWrapper = styled.a`
   text-align: left;
   border: 2px solid ${dark};
   // max-width: 500px;
@@ -26,6 +26,7 @@ const ProjectWrapper = styled.div`
   width: 200px;
   flex: 1;
   margin: 5px;
+  text-decoration: none;
   :hover {
     cursor: pointer;
     ${InfoWrapper} {
@@ -54,7 +55,7 @@ const Technologies = styled.p`
 export default function Projects() {
   console.log(projectData);
   const projects = projectData.map((project) => 
-  <ProjectWrapper>
+  <ProjectWrapper href = {project.link}>
     <InfoWrapper>
       <Subtitle>{project.subtitle}</Subtitle>
       <Description>{project.description}</Description>
