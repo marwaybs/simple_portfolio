@@ -17,12 +17,12 @@ export const projectData = [
         subtitle: 'Tic Tac Toe Game',
         description: 'Wanted to build a simple app to explore vanilla js a bit. Felt attached to libraries such as underscore and lodash and wanted to see if vanilla js could replace them',
         technologies: 'React, vanilla JS',
-        image: {portfolio}
+        image: portfolio
     },
     {
         subtitle: 'Musicality Trainer',
         description: 'A cross platform mobile app to train musicality for dancing.',
         technologies: 'React Native',
-        image: {portfolio}
+        image: portfolio
     }
 ]
