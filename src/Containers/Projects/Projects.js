@@ -3,8 +3,9 @@ import { dark } from '../../Components/colors';
 import styled from 'styled-components'
 import { projectData } from './data'
 
-const Grid = styled.div`
+const ProjectsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const InfoWrapper = styled.div`
@@ -18,12 +19,12 @@ const Image = styled.img`
 
 
 const ProjectWrapper = styled.a`
-  text-align: left;
+  text-align: center;
   border: 2px solid ${dark};
-  // max-width: 500px;
-  // max-height: 500px;
   height: 200px;
+  min-height: 200px;
   width: 200px;
+  min-width: 200px;
   flex: 1;
   margin: 5px;
   text-decoration: none;
@@ -53,7 +54,6 @@ const Technologies = styled.p`
 `
 
 export default function Projects() {
-  console.log(projectData);
   const projects = projectData.map((project) => 
   <ProjectWrapper href = {project.link}>
     <InfoWrapper>
@@ -65,8 +65,8 @@ export default function Projects() {
   </ProjectWrapper>
   )
   return (
-      <Grid>
+      <ProjectsWrapper>
         {projects}
-      </Grid>
+      </ProjectsWrapper>
   );
 }

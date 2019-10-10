@@ -1,20 +1,19 @@
 import React from 'react';
-import { } from '../../Components/colors';
 import styled from 'styled-components'
+import { phoneSize } from './../../Components/breakpoints'
 
 const SkillsWrapper = styled.div`
-margin: 0px;
-text-align: center;
-padding: 75px;
+  margin: 0px;
+  text-align: center;
+  padding: 75px;
+  @media screen and (max-width: ${phoneSize}) {
+    padding: 20px
+  }
 `
 
 const Title = styled.p`
   margin: 0px;
   font-size: 40px;
-`
-
-const SubTitle = styled.p`
-  font-size: 30px;
 `
 
 const TechnologyWrapper = styled.div`
@@ -23,10 +22,16 @@ const TechnologyWrapper = styled.div`
 
 const Technology = styled.p`
   padding: 10px;
+  @media screen and (max-width: ${phoneSize}) {
+    padding: 5px
+  }
 `;
 
 const Text = styled.p`
   padding: 10px;
+  @media screen and (max-width: ${phoneSize}) {
+    padding: 5px
+  }
 `;
 
 export default function Skills() {

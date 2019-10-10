@@ -7,6 +7,7 @@ const FooterWrapper  = styled.div`
     background-color: ${dark}
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
 `
 const Section = styled.div`
   padding: 10px;
@@ -15,10 +16,6 @@ const Section = styled.div`
   min-width: 100px;
   flex-direction: row;
   flex-wrap: wrap;
-`;
-
-const Text = styled.span`
-  color: ${light}
 `;
 
 const Title = styled.p`

@@ -1,12 +1,16 @@
 import React from 'react';
-import {dark} from '../../Components/colors';
-import styled from 'styled-components'
+import { dark } from '../../Components/colors';
+import styled from 'styled-components';
+import { phoneSize } from './../../Components/breakpoints';
 
 const AboutMeWrapper = styled.div`
-margin: 0px;
-text-align: center;
-padding: 75px;
-color: ${dark}
+  margin: 0px;
+  text-align: center;
+  padding: 75px;
+  color: ${dark}
+  @media screen and (max-width: ${phoneSize}) {
+    padding: 20px
+  }
 `;
 
 const Title = styled.p`
