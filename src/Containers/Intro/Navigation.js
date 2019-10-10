@@ -9,8 +9,8 @@ const NavigatonWrapper = styled.div`
   flex-wrap: wrap;
   z-index: 1;
   padding-top: 38vh;
-  @media screen and (max-width: ${phoneSize}) {
-    padding-top: 33vh;
+  @media only screen and (max-device-width: ${phoneSize}) {
+    padding-top: 12vh;
   }
 `
 
