@@ -28,5 +28,12 @@ export const projectData = [
         technologies: 'React Native',
         image: portfolio,
         link: 'https://github.com/marwaybs/musicality'
+    },
+    {
+        subtitle: 'Guided Daydreaming',
+        description: 'An experimental computational therapy based on EMDR',
+        technologies: 'Rails, JS, bulma.css',
+        image: portfolio,
+        link: 'https://github.com/marwaybs/guidedDaydreaming'
     }
 ]
