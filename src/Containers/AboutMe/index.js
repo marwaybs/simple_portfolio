@@ -45,12 +45,12 @@ export default function AboutMe() {
         </Title>
         <ContentWrapper>
           <SubTitle>
-            Varieties the spice of life
+            Variety's the spice of life
           </SubTitle>
           <ListWrapper>
-            <ListItem>Kizomba -> An angolan partner dance</ListItem>
-            <ListItem>Yoga -> to stay fit and meditate</ListItem>
-            <ListItem>Cooking -> because food is delicious</ListItem>
+            <ListItem>Kizomba &#8594; An Angolan partner dance</ListItem>
+            <ListItem>Yoga &#8594; To stay fit and meditate</ListItem>
+            <ListItem>Cooking &#8594; Because food is delicious</ListItem>
           </ListWrapper>
         </ContentWrapper>
         <Text>I've modelled my life to take care of myself and keep learning.</Text>
