@@ -6,6 +6,8 @@ import { projectData } from './data'
 const ProjectsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: center;
 `;
 
 const InfoWrapper = styled.div`
@@ -23,8 +25,8 @@ const ProjectWrapper = styled.a`
   border: 2px solid ${dark};
   height: 200px;
   min-height: 200px;
-  width: 200px;
   min-width: 200px;
+  max-width: 200px;
   flex: 1;
   margin: 5px;
   text-decoration: none;

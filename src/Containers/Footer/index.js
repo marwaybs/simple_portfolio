@@ -5,7 +5,7 @@ import { dark, light } from '../../Components/colors';
 
 const FooterWrapper  = styled.div`
     background-color: ${dark}
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
 `

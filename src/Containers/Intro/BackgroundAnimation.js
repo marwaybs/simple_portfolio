@@ -58,37 +58,37 @@ const ShapeList = styled.ul`
   }
   ${Shape}:nth-child(3){
     left: 70%;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     animation-delay: 4s;
     animation-duration: 13s;
   }
   ${Shape}:nth-child(4){
     left: 25%;
     left: 40%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     animation-delay: 0s;
     animation-duration: 18s;
   }
   ${Shape}:nth-child(5){
     left: 65%;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     animation-delay: 0s;
     animation-duration: 16s; 
   }
   ${Shape}:nth-child(6){
     left: 75%;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     animation-delay: 3s;
     animation-duration: 25s; 
   }
   ${Shape}:nth-child(7){
     left: 35%;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     animation-delay: 5s;
     animation-duration: 12s;
   }
@@ -101,8 +101,8 @@ const ShapeList = styled.ul`
   }
   ${Shape}:nth-child(9){
     left: 20%;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     animation-delay: 2s;
     animation-duration: 35s;
   }

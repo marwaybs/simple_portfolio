@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from 'styled-components'
-import { phoneSize } from './../../Components/breakpoints'
+import styled from 'styled-components';
+import { technologyList, lessBestList } from './data';
+import { phoneSize } from './../../Components/breakpoints';
 
 const SkillsWrapper = styled.div`
   margin: 0px;
@@ -35,25 +36,23 @@ const Text = styled.p`
 `;
 
 export default function Skills() {
+  const technologies = technologyList.map((tech) => 
+    <Technology>{tech}</Technology>
+  )
+  const lessBestTech = lessBestList.map((tech) => 
+  <Technology>{tech}</Technology>
+)
   return (
       <SkillsWrapper id="Skills">
         <Title>
           Skills
         </Title>
         <TechnologyWrapper>
-          <Technology>React/Redux</Technology>
-          <Technology>Ruby on Rails</Technology>
-          <Technology>Python</Technology>
+          {technologies}
         </TechnologyWrapper>
         <Text>What I know less best:</Text>
         <TechnologyWrapper>
-          <Technology>PHP - cakePHP</Technology>
-          <Technology>Android</Technology>
-          <Technology>iOS</Technology>
-          <Technology>Java</Technology>
-          <Technology>Matlab</Technology>
-          <Technology>R</Technology>
-
+          {lessBestTech}
         </TechnologyWrapper>
 
       </SkillsWrapper>
