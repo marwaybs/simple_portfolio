@@ -9,7 +9,8 @@ export const NavButton = styled.button`
   cursor: pointer;
   margin: 20px;
   border-radius: 12px;
+  transition: 0.5s;
   :hover {
-    color: red;
+    border-radius: 25px;
   }
 `;
