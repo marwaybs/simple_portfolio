@@ -10,14 +10,14 @@ export const projectData = [
     },
     {
         subtitle: 'Contacts App',
-        description: 'Exploring the new technologies used with react development. I used react boilerplate and studied and used all of the technologies it recomended',
+        description: 'Exploring the new technologies used with react development as reccomended by react boilerplate',
         technologies: 'React, Redux, Redux Saga, styled components, Ruby on Rails',
         image: portfolio,
         link: 'https://github.com/marwaybs/simple_portfolio'
     },
     {
         subtitle: 'Tic Tac Toe Game',
-        description: 'Wanted to build a simple app to explore vanilla js a bit. Felt attached to libraries such as underscore and lodash and wanted to see if vanilla js could replace them',
+        description: 'Wanted to build a simple app to explore vanilla js a bit. Future addition is to add a cpu, animations',
         technologies: 'React, vanilla JS',
         image: portfolio,
         link: 'https://github.com/marwaybs/tic_tac_toe'
