@@ -18,7 +18,7 @@ const Title = styled.p`
 export default function Intro() {
   return (
       <ProjectsWrapper id="Projects">
-        <Title>Projects</Title>
+        <Title>Projects (WIP)</Title>
         <Projects/>
       </ProjectsWrapper>
   );
